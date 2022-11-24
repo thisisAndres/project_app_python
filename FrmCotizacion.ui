@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>631</width>
-    <height>299</height>
+    <width>897</width>
+    <height>538</height>
    </rect>
   </property>
   <property name="contextMenuPolicy">
@@ -19,7 +19,7 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>130</x>
      <y>30</y>
      <width>171</width>
      <height>31</height>
@@ -32,7 +32,7 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>130</x>
      <y>70</y>
      <width>47</width>
      <height>13</height>
@@ -45,7 +45,7 @@
   <widget class="QLineEdit" name="txtCedula">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>190</x>
      <y>70</y>
      <width>191</width>
      <height>20</height>
@@ -55,7 +55,7 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>130</x>
      <y>100</y>
      <width>47</width>
      <height>13</height>
@@ -68,7 +68,7 @@
   <widget class="QLineEdit" name="txtNombre">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>190</x>
      <y>100</y>
      <width>191</width>
      <height>20</height>
@@ -78,7 +78,7 @@
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>130</x>
      <y>130</y>
      <width>47</width>
      <height>13</height>
@@ -91,7 +91,7 @@
   <widget class="QComboBox" name="comboBoxGenero">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>190</x>
      <y>130</y>
      <width>191</width>
      <height>22</height>
@@ -116,7 +116,7 @@
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>70</y>
      <width>47</width>
      <height>13</height>
@@ -129,7 +129,7 @@
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>100</y>
      <width>47</width>
      <height>13</height>
@@ -142,7 +142,7 @@
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>160</y>
      <width>47</width>
      <height>13</height>
@@ -155,7 +155,7 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>130</y>
      <width>47</width>
      <height>13</height>
@@ -168,7 +168,7 @@
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>460</x>
      <y>30</y>
      <width>221</width>
      <height>31</height>
@@ -181,7 +181,7 @@
   <widget class="QLineEdit" name="txtMonto">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>520</x>
      <y>100</y>
      <width>191</width>
      <height>20</height>
@@ -191,7 +191,7 @@
   <widget class="QLabel" name="label_11">
    <property name="geometry">
     <rect>
-     <x>20</x>
+     <x>130</x>
      <y>160</y>
      <width>47</width>
      <height>13</height>
@@ -204,7 +204,7 @@
   <widget class="QComboBox" name="comboBoxSector">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>190</x>
      <y>160</y>
      <width>191</width>
      <height>22</height>
@@ -224,7 +224,7 @@
   <widget class="QComboBox" name="comboBoxTipoCredito">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>520</x>
      <y>70</y>
      <width>191</width>
      <height>22</height>
@@ -244,7 +244,7 @@
   <widget class="QLineEdit" name="txtTasa">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>520</x>
      <y>130</y>
      <width>191</width>
      <height>20</height>
@@ -254,7 +254,7 @@
   <widget class="QComboBox" name="comboBoxPlazo">
    <property name="geometry">
     <rect>
-     <x>410</x>
+     <x>520</x>
      <y>160</y>
      <width>191</width>
      <height>22</height>
@@ -294,8 +294,8 @@
   <widget class="QCheckBox" name="checkBoxCargos">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>210</y>
+     <x>350</x>
+     <y>200</y>
      <width>161</width>
      <height>17</height>
     </rect>
@@ -304,21 +304,97 @@
     <string>CARGOS ADMINISTRATIVOS</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnGenerar">
+  <widget class="QTableWidget" name="TblInformacion">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>240</y>
-     <width>221</width>
-     <height>41</height>
+     <x>30</x>
+     <y>310</y>
+     <width>811</width>
+     <height>211</height>
     </rect>
    </property>
-   <property name="text">
-    <string>GENERAR COTIZACION</string>
+   <column>
+    <property name="text">
+     <string>Cédula</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Genero</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Sector</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tipo de crédito</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Monto</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Tasa</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Plazo en meses</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>421</width>
+     <height>43</height>
+    </rect>
    </property>
-   <property name="default">
-    <bool>true</bool>
-   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0,0">
+    <property name="spacing">
+     <number>3</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="BtnGenerar">
+      <property name="text">
+       <string>GENERAR COTIZACION</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="BtnModificar">
+      <property name="text">
+       <string>Modificar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="BtnEliminar">
+      <property name="text">
+       <string>Eliminar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>
