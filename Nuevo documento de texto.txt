@@ -1,0 +1,15 @@
+---------------> INFORMACION DE CLIENTE <-----------------------
+
+[NOMBRE CLIENTE] || [CEDULA] || [GENERO] || [SECTOR]
+
+
+---------------> INFORMACION DE CREDITO <-----------------------
+
+[TIPO] || [MONTO] || [TASA] || [PLAZO]
+
+
+--------------->     TABLA DE PAGOS 	<-----------------------
+
+CUOTA || SALDO || INTERESES || AMORTIZACION
+
+

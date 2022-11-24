@@ -170,7 +170,7 @@
     <rect>
      <x>350</x>
      <y>30</y>
-     <width>201</width>
+     <width>221</width>
      <height>31</height>
     </rect>
    </property>
@@ -201,7 +201,7 @@
     <string>SECTOR:</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="comboBox_Sector">
+  <widget class="QComboBox" name="comboBoxSector">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -221,7 +221,7 @@
     </property>
    </item>
   </widget>
-  <widget class="QComboBox" name="comboBox_Vivienda">
+  <widget class="QComboBox" name="comboBoxTipoCredito">
    <property name="geometry">
     <rect>
      <x>410</x>
@@ -251,7 +251,7 @@
     </rect>
    </property>
   </widget>
-  <widget class="QComboBox" name="comboBox_Plazo">
+  <widget class="QComboBox" name="comboBoxPlazo">
    <property name="geometry">
     <rect>
      <x>410</x>
