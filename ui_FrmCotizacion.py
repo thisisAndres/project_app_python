@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'c:\Users\50686\OneDrive\Desktop\Progra_2\proyecto\project_app_python\FrmCotizacion.ui'
+# Form implementation generated from reading ui file 'c:\Users\50686\OneDrive\Desktop\Progra_2\project_app_python\FrmCotizacion.ui'
 #
 # Created by: PyQt6 UI code generator 6.4.0
 #
@@ -133,12 +133,12 @@ class Ui_Form(object):
         self.comboBoxSector.setItemText(1, _translate("Form", "PRIVADO"))
         self.comboBoxTipoCredito.setItemText(0, _translate("Form", "VIVIENDA"))
         self.comboBoxTipoCredito.setItemText(1, _translate("Form", "CONSUMO "))
-        self.comboBoxPlazo.setItemText(0, _translate("Form", "3 "))
-        self.comboBoxPlazo.setItemText(1, _translate("Form", "6 "))
-        self.comboBoxPlazo.setItemText(2, _translate("Form", "12 "))
-        self.comboBoxPlazo.setItemText(3, _translate("Form", "24 "))
-        self.comboBoxPlazo.setItemText(4, _translate("Form", "48 "))
-        self.comboBoxPlazo.setItemText(5, _translate("Form", "96 "))
+        self.comboBoxPlazo.setItemText(0, _translate("Form", "3"))
+        self.comboBoxPlazo.setItemText(1, _translate("Form", "6"))
+        self.comboBoxPlazo.setItemText(2, _translate("Form", "12"))
+        self.comboBoxPlazo.setItemText(3, _translate("Form", "24"))
+        self.comboBoxPlazo.setItemText(4, _translate("Form", "48"))
+        self.comboBoxPlazo.setItemText(5, _translate("Form", "96"))
         self.checkBoxCargos.setText(_translate("Form", "CARGOS ADMINISTRATIVOS"))
         self.btnGenerar.setText(_translate("Form", "GENERAR COTIZACION"))
         item = self.tableWidget.horizontalHeaderItem(0)

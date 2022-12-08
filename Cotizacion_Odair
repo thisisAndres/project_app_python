@@ -1,0 +1,22 @@
+--------------------> INFORMACION DE CLIENTE <-----------------------
+
+[Nombre: Odair] || [Cedula: 12345] || [Genero: N/A] || [Sector: PUBLICO]
+
+--------------------> INFORMACION DE CREDITO <-----------------------
+
+[Tipo de credito: VIVIENDA] || [Monto del credito: 1000] || [Interes: 5%] || [Plazo: 12 meses]
+
+--------------->     TABLA DE PAGOS 	<-----------------------
+Numero de cuota || Saldo pendiente || Intereses por mes || monto de cuota
+1    ||    1,575    ||    75    ||    131
+2    ||    1,444    ||    79    ||    131
+3    ||    1,312    ||    72    ||    131
+4    ||    1,181    ||    66    ||    131
+5    ||    1,050    ||    59    ||    131
+6    ||    919    ||    52    ||    131
+7    ||    788    ||    46    ||    131
+8    ||    656    ||    39    ||    131
+9    ||    525    ||    33    ||    131
+10    ||    394    ||    26    ||    131
+11    ||    262    ||    20    ||    131
+12    ||    131    ||    13    ||    131
